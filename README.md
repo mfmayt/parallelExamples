@@ -4,13 +4,14 @@
 ```sh
 $ brew install llvm
 ```
-To run program, run following commands.
+## Primes
+To run program, open directory of the code and run following commands on terminal.
 ```sh
 $ /usr/local/opt/llvm/bin/clang -fopenmp -L/usr/local/opt/llvm/lib primes_parallel.c -o primes
 $ ./primes
 ```
 
-## Output
+#### Output
 There are 2 output files, list of primes and a `csv` formatted file, in order of:
 
 ```
